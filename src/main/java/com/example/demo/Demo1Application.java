@@ -22,6 +22,7 @@ public class Demo1Application {
         List<Pet> petList = Arrays.asList(pet, pett);
         person.setPets(petList);
         personRepository.save(person);
+
         person = new Person("amir", "9-falahati alley", "tehran");
         pet = new Pet("dog", person);
         pett = new Pet("cat", person);

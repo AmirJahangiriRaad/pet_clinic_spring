@@ -23,8 +23,8 @@ public class Demo1Application {
         person.setPets(petList);
         personRepository.save(person);
 
-        person = new Person("amir", "9-falahati alley", "tehran");
-        pet = new Pet("dog", person);
+        person = new Person("ali", "9-falahati alley", "tehran");
+        pet = new Pet("bird", person);
         pett = new Pet("cat", person);
         petList = Arrays.asList(pet, pett);
         person.setPets(petList);
